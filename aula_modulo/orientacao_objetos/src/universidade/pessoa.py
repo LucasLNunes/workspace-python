@@ -1,11 +1,13 @@
 # src/universidade/pessoa.py
 class Pessoa:
-    def __init__(self, nome=None, cpf=-1):
-        self.__nome = nome
-        if cpf != -1 and self.__validar_cpf(cpf):
-            self.__cpf = cpf
-        else:
-            self.__cpf = -1  # CPF inválido
+    def __str__(self) -> str:
+        verificador = self._cpf%100
+        atual = self._cpf//100
+        terc = atual%1000
+        atual = atual//1000
+        seg = atual%1000
+        prim = atual//1000
+        return f"{self.nome} {prim:03d}.{seg:03d}.{terc:03d}-{verificador:02d}"
 
     @property
     def nome(self):
@@ -24,8 +26,8 @@ class Pessoa:
         if self.__validar_cpf(cpf):
             self.__cpf = cpf
         else:
-            self.__cpf = -1  # Indica CPF inválido
-
+            raise ValueError("CPF Inválido")
+        
     def __validar_cpf(self, cpf_teste):
         somatorio_valida_ultimo = 0
         somatorio_valida_penultimo = 0

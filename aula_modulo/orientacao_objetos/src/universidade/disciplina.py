@@ -1,18 +1,15 @@
 # src/universidade/disciplina.py
 from .conteudo_ministrado import ConteudoMinistrado
+from .professor import Professor
+
 
 class Disciplina:
     def __init__(self, nome, carga_horaria=60, professor=None):
         self.__nome = nome
-
-        if carga_horaria > 0:
-            self.__carga_horaria = carga_horaria
-        else:
-            self.__carga_horaria = -1  # Carga inválida
-
-        self.__professor = professor
+        self.carga_horaria = carga_horaria
+        self.professor = professor
         self.__conteudos_ministrados = []
-                    
+
     @property
     def nome(self):
         return self.__nome
@@ -38,6 +35,8 @@ class Disciplina:
     
     @professor.setter
     def professor(self, professor):
+        if professor is not None and not issubclass(type(professor), Professor):
+            raise TypeError("parâmetro professor deve derivar da classe Professor")
         self.__professor = professor
 
     def adicionar_conteudo_ministrado(self, descricao, carga_horaria):

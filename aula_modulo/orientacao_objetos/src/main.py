@@ -1,12 +1,11 @@
-# src/main.py
 from universidade.pessoa import Pessoa
-from universidade.disciplina import Disciplina
 
-p1 = Pessoa("João", 11111111111)
-d1 = Disciplina("Orientação a Objetos", 60, p1)
+lista = []
+lista.append(Pessoa("João da Silva", 77777777777))
+lista.append(Pessoa("Maria", 11111111111))
+lista.append(Pessoa("Pedro", 55555555555))
+lista.append(Pessoa("Camila", 88888888888))
+lista.sort()
 
-d1.adicionar_conteudo_ministrado("Getters e Setters", 1)
-d1.adicionar_conteudo_ministrado("Classes", 2)
-d1.adicionar_conteudo_ministrado("Modificadores de Acesso", 1)
-
-d1.exibir_informacoes()
+for p in lista:
+    print(p)
