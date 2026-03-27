@@ -1,11 +1,7 @@
-from universidade.pessoa import Pessoa
+from universidade.animal import Animal
 
-lista = []
-lista.append(Pessoa("João da Silva", 77777777777))
-lista.append(Pessoa("Maria", 11111111111))
-lista.append(Pessoa("Pedro", 55555555555))
-lista.append(Pessoa("Camila", 88888888888))
-lista.sort()
+animal = Animal()
+animal.nome = "Meu Cachorro"
 
-for p in lista:
-    print(p)
+nome = animal.nome
+print(nome)
