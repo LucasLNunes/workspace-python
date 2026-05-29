@@ -1,0 +1,351 @@
+nohup: ignoring input
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  URL: http://0.0.0.0:8501
+
+[31m──[0m[31m────────────────────────[0m[31m [0m[1;31mTraceback [0m[1;2;31m(most recent call last)[0m[31m [0m[31m─────────────────────────[0m[31m──[0m
+[31m [0m [2m/home/wagner/miniconda3/envs/chat_curso/lib/python3.13/site-packages/streamlit/eleme[0m [31m [0m
+[31m [0m [2mnts/lib/[0m[1mimage_utils.py[0m:286 in image_to_url                                           [31m [0m
+[31m────────────────────────────────────────────────────────────────────────────────────────[0m
+[1;91mFileNotFoundError: [0m[1m[[0mErrno [1;36m2[0m[1m][0m No such file or directory: 
+[32m'/home/wagner/gitprojects/OmegaTeach/Curso_LangChain/Produto1/src/LOGO_OMEGA.jpeg'[0m
+
+[3mDuring handling of the above exception, another exception occurred:[0m
+
+[31m──[0m[31m────────────────────────[0m[31m [0m[1;31mTraceback [0m[1;2;31m(most recent call last)[0m[31m [0m[31m─────────────────────────[0m[31m──[0m
+[31m [0m [2m/home/wagner/miniconda3/envs/chat_curso/lib/python3.13/site-packages/streamlit/runti[0m [31m [0m
+[31m [0m [2mme/[0m[1mmemory_media_file_storage.py[0m:163 in _read_file                                    [31m [0m
+[31m────────────────────────────────────────────────────────────────────────────────────────[0m
+[1;91mFileNotFoundError: [0m[1m[[0mErrno [1;36m2[0m[1m][0m No such file or directory: 
+[32m'/home/wagner/gitprojects/OmegaTeach/Curso_LangChain/Produto1/src/LOGO_OMEGA.jpeg'[0m
+
+[3mThe above exception was the direct cause of the following exception:[0m
+
+[31m──[0m[31m────────────────────────[0m[31m [0m[1;31mTraceback [0m[1;2;31m(most recent call last)[0m[31m [0m[31m─────────────────────────[0m[31m──[0m
+[31m [0m [2m/home/wagner/miniconda3/envs/chat_curso/lib/python3.13/site-packages/streamlit/runti[0m [31m [0m
+[31m [0m [2mme/scriptrunner/[0m[1mexec_code.py[0m:121 in exec_func_with_error_handling                    [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/home/wagner/miniconda3/envs/chat_curso/lib/python3.13/site-packages/streamlit/runti[0m [31m [0m
+[31m [0m [2mme/scriptrunner/[0m[1mscript_runner.py[0m:645 in code_to_exec                                 [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/home/wagner/chatbot_curso/[0m[1mapp.py[0m:140 in <module>                                    [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m137 [0mst.title([33m"[0m[33mEngenharia de prompt[0m[33m"[0m)                                               [31m [0m
+[31m [0m   [2m138 [0m                                                                               [31m [0m
+[31m [0m   [2m139 [0m[94mwith[0m st.sidebar:                                                               [31m [0m
+[31m [0m [31m❱ [0m140 [2m│   [0m[1;4mst.image([0m[1;4;33m'[0m[1;4;33m/home/wagner/gitprojects/OmegaTeach/Curso_LangChain/Produto1/src[0m [31m [0m
+[31m [0m   [2m141 [0m[2m│   [0mst.markdown([33m"[0m[33m---[0m[33m"[0m)                                                         [31m [0m
+[31m [0m   [2m142 [0m[2m│   [0m[2m#cliente_email = st.text_input("Por favor, insira o seu email")[0m            [31m [0m
+[31m [0m   [2m143 [0m[2m│   [0m[2m#cliente_nome = st.text_input("Por favor, insira o seu nome completo")[0m     [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/home/wagner/miniconda3/envs/chat_curso/lib/python3.13/site-packages/streamlit/runti[0m [31m [0m
+[31m [0m [2mme/[0m[1mmetrics_util.py[0m:444 in wrapped_func                                               [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/home/wagner/miniconda3/envs/chat_curso/lib/python3.13/site-packages/streamlit/eleme[0m [31m [0m
+[31m [0m [2mnts/[0m[1mimage.py[0m:181 in image                                                            [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/home/wagner/miniconda3/envs/chat_curso/lib/python3.13/site-packages/streamlit/eleme[0m [31m [0m
+[31m [0m [2mnts/lib/[0m[1mimage_utils.py[0m:442 in marshall_images                                        [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/home/wagner/miniconda3/envs/chat_curso/lib/python3.13/site-packages/streamlit/eleme[0m [31m [0m
+[31m [0m [2mnts/lib/[0m[1mimage_utils.py[0m:298 in image_to_url                                           [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/home/wagner/miniconda3/envs/chat_curso/lib/python3.13/site-packages/streamlit/runti[0m [31m [0m
+[31m [0m [2mme/[0m[1mmedia_file_manager.py[0m:226 in add                                                  [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/home/wagner/miniconda3/envs/chat_curso/lib/python3.13/site-packages/streamlit/runti[0m [31m [0m
+[31m [0m [2mme/[0m[1mmemory_media_file_storage.py[0m:114 in load_and_get_id                               [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/home/wagner/miniconda3/envs/chat_curso/lib/python3.13/site-packages/streamlit/runti[0m [31m [0m
+[31m [0m [2mme/[0m[1mmemory_media_file_storage.py[0m:166 in _read_file                                    [31m [0m
+[31m────────────────────────────────────────────────────────────────────────────────────────[0m
+[1;91mMediaFileStorageError: [0mError opening 
+[32m'/home/wagner/gitprojects/OmegaTeach/Curso_LangChain/Produto1/src/LOGO_OMEGA.jpeg'[0m
+[31m──[0m[31m────────────────────────[0m[31m [0m[1;31mTraceback [0m[1;2;31m(most recent call last)[0m[31m [0m[31m─────────────────────────[0m[31m──[0m
+[31m [0m [2m/home/wagner/miniconda3/envs/chat_curso/lib/python3.13/site-packages/streamlit/runti[0m [31m [0m
+[31m [0m [2mme/scriptrunner/[0m[1mexec_code.py[0m:121 in exec_func_with_error_handling                    [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/home/wagner/miniconda3/envs/chat_curso/lib/python3.13/site-packages/streamlit/runti[0m [31m [0m
+[31m [0m [2mme/scriptrunner/[0m[1mscript_runner.py[0m:645 in code_to_exec                                 [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/home/wagner/chatbot_curso/[0m[1mapp.py[0m:193 in <module>                                    [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m190 [0m[2m│   [0m[2m#pertinencia = check_input(pergunta_cliente)[0m                               [31m [0m
+[31m [0m   [2m191 [0m[2m│   [0mpertinencia = [94m1[0m                                                            [31m [0m
+[31m [0m   [2m192 [0m[2m│   [0m[94mif[0m(pertinencia == [94m1[0m):                                                      [31m [0m
+[31m [0m [31m❱ [0m193 [2m│   │   [0mresposta = [1;4mchain.invoke({[0m                                              [31m [0m
+[31m [0m   [2m194 [0m[2m│   │   │   [0m[1;4;33m"[0m[1;4;33mchat_history[0m[1;4;33m"[0m[1;4m: st.session_state.chat_history,[0m                     [31m [0m
+[31m [0m   [2m195 [0m[2m│   │   │   [0m[1;4;33m"[0m[1;4;33minput[0m[1;4;33m"[0m[1;4m: pergunta_cliente[0m                                          [31m [0m
+[31m [0m   [2m196 [0m[2m│   │   │   [0m[1;4m})[0m.content                                                         [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/home/wagner/miniconda3/envs/chat_curso/lib/python3.13/site-packages/langchain_core/[0m [31m [0m
+[31m [0m [2mrunnables/[0m[1mbase.py[0m:3045 in invoke                                                     [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m3042 [0m[2m│   │   │   │   [0m)                                                             [31m [0m
+[31m [0m   [2m3043 [0m[2m│   │   │   │   [0m[94mwith[0m set_config_context(config) [94mas[0m context:                   [31m [0m
+[31m [0m   [2m3044 [0m[2m│   │   │   │   │   [0m[94mif[0m i == [94m0[0m:                                                [31m [0m
+[31m [0m [31m❱ [0m3045 [2m│   │   │   │   │   │   [0minput_ = context.run(step.invoke, input_, config, **k [31m [0m
+[31m [0m   [2m3046 [0m[2m│   │   │   │   │   [0m[94melse[0m:                                                     [31m [0m
+[31m [0m   [2m3047 [0m[2m│   │   │   │   │   │   [0minput_ = context.run(step.invoke, input_, config)     [31m [0m
+[31m [0m   [2m3048 [0m[2m│   │   [0m[2m# finish the root run[0m                                                 [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/home/wagner/miniconda3/envs/chat_curso/lib/python3.13/site-packages/langchain_core/[0m [31m [0m
+[31m [0m [2mrunnables/[0m[1mpassthrough.py[0m:511 in invoke                                               [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m508 [0m[2m│   │   [0mconfig: Optional[RunnableConfig] = [94mNone[0m,                               [31m [0m
+[31m [0m   [2m509 [0m[2m│   │   [0m**kwargs: Any,                                                         [31m [0m
+[31m [0m   [2m510 [0m[2m│   [0m) -> [96mdict[0m[[96mstr[0m, Any]:                                                       [31m [0m
+[31m [0m [31m❱ [0m511 [2m│   │   [0m[94mreturn[0m [1;4;96mself[0m[1;4m._call_with_config([0m[1;4;96mself[0m[1;4m._invoke, [0m[1;4;96minput[0m[1;4m, config, **kwargs)[0m   [31m [0m
+[31m [0m   [2m512 [0m[2m│   [0m                                                                           [31m [0m
+[31m [0m   [2m513 [0m[2m│   [0m[94masync[0m [94mdef[0m[90m [0m[92m_ainvoke[0m(                                                        [31m [0m
+[31m [0m   [2m514 [0m[2m│   │   [0m[96mself[0m,                                                                  [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/home/wagner/miniconda3/envs/chat_curso/lib/python3.13/site-packages/langchain_core/[0m [31m [0m
+[31m [0m [2mrunnables/[0m[1mbase.py[0m:1940 in _call_with_config                                          [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m1937 [0m[2m│   │   │   [0m[94mwith[0m set_config_context(child_config) [94mas[0m context:                 [31m [0m
+[31m [0m   [2m1938 [0m[2m│   │   │   │   [0moutput = cast(                                                [31m [0m
+[31m [0m   [2m1939 [0m[2m│   │   │   │   │   [0m[33m"[0m[33mOutput[0m[33m"[0m,                                                 [31m [0m
+[31m [0m [31m❱ [0m1940 [2m│   │   │   │   │   [0mcontext.run(                                              [31m [0m
+[31m [0m   [2m1941 [0m[2m│   │   │   │   │   │   [0mcall_func_with_variable_args,  [2m# type: ignore[arg-typ[0m [31m [0m
+[31m [0m   [2m1942 [0m[2m│   │   │   │   │   │   [0mfunc,                                                 [31m [0m
+[31m [0m   [2m1943 [0m[2m│   │   │   │   │   │   [0minput_,                                               [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/home/wagner/miniconda3/envs/chat_curso/lib/python3.13/site-packages/langchain_core/[0m [31m [0m
+[31m [0m [2mrunnables/[0m[1mconfig.py[0m:428 in call_func_with_variable_args                              [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m425 [0m[2m│   │   │   [0mkwargs[[33m"[0m[33mconfig[0m[33m"[0m] = config                                          [31m [0m
+[31m [0m   [2m426 [0m[2m│   [0m[94mif[0m run_manager [95mis[0m [95mnot[0m [94mNone[0m [95mand[0m accepts_run_manager(func):                  [31m [0m
+[31m [0m   [2m427 [0m[2m│   │   [0mkwargs[[33m"[0m[33mrun_manager[0m[33m"[0m] = run_manager                                    [31m [0m
+[31m [0m [31m❱ [0m428 [2m│   [0m[94mreturn[0m [1;4mfunc([0m[1;4;96minput[0m[1;4m, **kwargs)[0m  [2m# type: ignore[call-arg][0m                     [31m [0m
+[31m [0m   [2m429 [0m                                                                               [31m [0m
+[31m [0m   [2m430 [0m                                                                               [31m [0m
+[31m [0m   [2m431 [0m[94mdef[0m[90m [0m[92macall_func_with_variable_args[0m(                                             [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/home/wagner/miniconda3/envs/chat_curso/lib/python3.13/site-packages/langchain_core/[0m [31m [0m
+[31m [0m [2mrunnables/[0m[1mpassthrough.py[0m:497 in _invoke                                              [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m494 [0m[2m│   │   [0m                                                                       [31m [0m
+[31m [0m   [2m495 [0m[2m│   │   [0m[94mreturn[0m {                                                               [31m [0m
+[31m [0m   [2m496 [0m[2m│   │   │   [0m**value,                                                           [31m [0m
+[31m [0m [31m❱ [0m497 [2m│   │   │   [0m**[1;4;96mself[0m[1;4m.mapper.invoke([0m                                              [31m [0m
+[31m [0m   [2m498 [0m[2m│   │   │   │   [0m[1;4mvalue,[0m                                                         [31m [0m
+[31m [0m   [2m499 [0m[2m│   │   │   │   [0m[1;4mpatch_config(config, callbacks=run_manager.get_child()),[0m       [31m [0m
+[31m [0m   [2m500 [0m[2m│   │   │   │   [0m[1;4m**kwargs,[0m                                                      [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/home/wagner/miniconda3/envs/chat_curso/lib/python3.13/site-packages/langchain_core/[0m [31m [0m
+[31m [0m [2mrunnables/[0m[1mbase.py[0m:3774 in invoke                                                     [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m3771 [0m[2m│   │   │   │   │   [0mexecutor.submit(_invoke_step, step, [96minput[0m, config, key)   [31m [0m
+[31m [0m   [2m3772 [0m[2m│   │   │   │   │   [0m[94mfor[0m key, step [95min[0m steps.items()                            [31m [0m
+[31m [0m   [2m3773 [0m[2m│   │   │   │   [0m]                                                             [31m [0m
+[31m [0m [31m❱ [0m3774 [2m│   │   │   │   [0moutput = {key: future.result() [94mfor[0m key, future [95min[0m [96mzip[0m(steps,  [31m [0m
+[31m [0m   [2m3775 [0m[2m│   │   [0m[2m# finish the root run[0m                                                 [31m [0m
+[31m [0m   [2m3776 [0m[2m│   │   [0m[94mexcept[0m [96mBaseException[0m [94mas[0m e:                                            [31m [0m
+[31m [0m   [2m3777 [0m[2m│   │   │   [0mrun_manager.on_chain_error(e)                                     [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/home/wagner/miniconda3/envs/chat_curso/lib/python3.13/concurrent/futures/[0m[1m_base.py[0m:4 [31m [0m
+[31m [0m 56 in result                                                                         [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m453 [0m[2m│   │   │   │   [0m[94mif[0m [96mself[0m._state [95min[0m [CANCELLED, CANCELLED_AND_NOTIFIED]:         [31m [0m
+[31m [0m   [2m454 [0m[2m│   │   │   │   │   [0m[94mraise[0m CancelledError()                                     [31m [0m
+[31m [0m   [2m455 [0m[2m│   │   │   │   [0m[94melif[0m [96mself[0m._state == FINISHED:                                  [31m [0m
+[31m [0m [31m❱ [0m456 [2m│   │   │   │   │   [0m[94mreturn[0m [96mself[0m.__get_result()                                 [31m [0m
+[31m [0m   [2m457 [0m[2m│   │   │   │   [0m[94melse[0m:                                                          [31m [0m
+[31m [0m   [2m458 [0m[2m│   │   │   │   │   [0m[94mraise[0m [96mTimeoutError[0m()                                       [31m [0m
+[31m [0m   [2m459 [0m[2m│   │   [0m[94mfinally[0m:                                                               [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/home/wagner/miniconda3/envs/chat_curso/lib/python3.13/concurrent/futures/[0m[1m_base.py[0m:4 [31m [0m
+[31m [0m 01 in __get_result                                                                   [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m398 [0m[2m│   [0m[94mdef[0m[90m [0m[92m__get_result[0m([96mself[0m):                                                    [31m [0m
+[31m [0m   [2m399 [0m[2m│   │   [0m[94mif[0m [96mself[0m._exception:                                                    [31m [0m
+[31m [0m   [2m400 [0m[2m│   │   │   [0m[94mtry[0m:                                                               [31m [0m
+[31m [0m [31m❱ [0m401 [2m│   │   │   │   [0m[94mraise[0m [96mself[0m._exception                                          [31m [0m
+[31m [0m   [2m402 [0m[2m│   │   │   [0m[94mfinally[0m:                                                           [31m [0m
+[31m [0m   [2m403 [0m[2m│   │   │   │   [0m[2m# Break a reference cycle with the exception in self._exceptio[0m [31m [0m
+[31m [0m   [2m404 [0m[2m│   │   │   │   [0m[1;4;96mself[0m = [94mNone[0m                                                    [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/home/wagner/miniconda3/envs/chat_curso/lib/python3.13/concurrent/futures/[0m[1mthread.py[0m: [31m [0m
+[31m [0m 59 in run                                                                            [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m 56 [0m[2m│   │   │   [0m[94mreturn[0m                                                             [31m [0m
+[31m [0m   [2m 57 [0m[2m│   │   [0m                                                                       [31m [0m
+[31m [0m   [2m 58 [0m[2m│   │   [0m[94mtry[0m:                                                                   [31m [0m
+[31m [0m [31m❱ [0m 59 [2m│   │   │   [0mresult = [96mself[0m.fn(*[96mself[0m.args, **[96mself[0m.kwargs)                        [31m [0m
+[31m [0m   [2m 60 [0m[2m│   │   [0m[94mexcept[0m [96mBaseException[0m [94mas[0m exc:                                           [31m [0m
+[31m [0m   [2m 61 [0m[2m│   │   │   [0m[96mself[0m.future.set_exception(exc)                                     [31m [0m
+[31m [0m   [2m 62 [0m[2m│   │   │   [0m[2m# Break a reference cycle with the exception 'exc'[0m                 [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/home/wagner/miniconda3/envs/chat_curso/lib/python3.13/site-packages/langchain_core/[0m [31m [0m
+[31m [0m [2mrunnables/[0m[1mbase.py[0m:3758 in _invoke_step                                               [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m3755 [0m[2m│   │   │   │   [0mcallbacks=run_manager.get_child([33mf[0m[33m"[0m[33mmap:key:[0m[33m{[0mkey[33m}[0m[33m"[0m),            [31m [0m
+[31m [0m   [2m3756 [0m[2m│   │   │   [0m)                                                                 [31m [0m
+[31m [0m   [2m3757 [0m[2m│   │   │   [0m[94mwith[0m set_config_context(child_config) [94mas[0m context:                 [31m [0m
+[31m [0m [31m❱ [0m3758 [2m│   │   │   │   [0m[94mreturn[0m [1;4mcontext.run([0m                                           [31m [0m
+[31m [0m   [2m3759 [0m[2m│   │   │   │   │   [0m[1;4mstep.invoke,[0m                                              [31m [0m
+[31m [0m   [2m3760 [0m[2m│   │   │   │   │   [0m[1;4minput_,[0m                                                   [31m [0m
+[31m [0m   [2m3761 [0m[2m│   │   │   │   │   [0m[1;4mchild_config,[0m                                             [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/home/wagner/miniconda3/envs/chat_curso/lib/python3.13/site-packages/langchain_core/[0m [31m [0m
+[31m [0m [2mrunnables/[0m[1mbase.py[0m:4771 in invoke                                                     [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m4768 [0m[2;33m│   │   │   [0m[33mTypeError: If the Runnable is a coroutine function.[0m               [31m [0m
+[31m [0m   [2m4769 [0m[2;33m│   │   [0m[33m"""[0m                                                                   [31m [0m
+[31m [0m   [2m4770 [0m[2m│   │   [0m[94mif[0m [96mhasattr[0m([96mself[0m, [33m"[0m[33mfunc[0m[33m"[0m):                                             [31m [0m
+[31m [0m [31m❱ [0m4771 [2m│   │   │   [0m[94mreturn[0m [1;4;96mself[0m[1;4m._call_with_config([0m                                    [31m [0m
+[31m [0m   [2m4772 [0m[2m│   │   │   │   [0m[1;4;96mself[0m[1;4m._invoke,[0m                                                 [31m [0m
+[31m [0m   [2m4773 [0m[2m│   │   │   │   [0m[1;4;96minput[0m[1;4m,[0m                                                        [31m [0m
+[31m [0m   [2m4774 [0m[2m│   │   │   │   [0m[1;4mensure_config(config),[0m                                        [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/home/wagner/miniconda3/envs/chat_curso/lib/python3.13/site-packages/langchain_core/[0m [31m [0m
+[31m [0m [2mrunnables/[0m[1mbase.py[0m:1940 in _call_with_config                                          [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m1937 [0m[2m│   │   │   [0m[94mwith[0m set_config_context(child_config) [94mas[0m context:                 [31m [0m
+[31m [0m   [2m1938 [0m[2m│   │   │   │   [0moutput = cast(                                                [31m [0m
+[31m [0m   [2m1939 [0m[2m│   │   │   │   │   [0m[33m"[0m[33mOutput[0m[33m"[0m,                                                 [31m [0m
+[31m [0m [31m❱ [0m1940 [2m│   │   │   │   │   [0mcontext.run(                                              [31m [0m
+[31m [0m   [2m1941 [0m[2m│   │   │   │   │   │   [0mcall_func_with_variable_args,  [2m# type: ignore[arg-typ[0m [31m [0m
+[31m [0m   [2m1942 [0m[2m│   │   │   │   │   │   [0mfunc,                                                 [31m [0m
+[31m [0m   [2m1943 [0m[2m│   │   │   │   │   │   [0minput_,                                               [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/home/wagner/miniconda3/envs/chat_curso/lib/python3.13/site-packages/langchain_core/[0m [31m [0m
+[31m [0m [2mrunnables/[0m[1mconfig.py[0m:428 in call_func_with_variable_args                              [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m425 [0m[2m│   │   │   [0mkwargs[[33m"[0m[33mconfig[0m[33m"[0m] = config                                          [31m [0m
+[31m [0m   [2m426 [0m[2m│   [0m[94mif[0m run_manager [95mis[0m [95mnot[0m [94mNone[0m [95mand[0m accepts_run_manager(func):                  [31m [0m
+[31m [0m   [2m427 [0m[2m│   │   [0mkwargs[[33m"[0m[33mrun_manager[0m[33m"[0m] = run_manager                                    [31m [0m
+[31m [0m [31m❱ [0m428 [2m│   [0m[94mreturn[0m [1;4mfunc([0m[1;4;96minput[0m[1;4m, **kwargs)[0m  [2m# type: ignore[call-arg][0m                     [31m [0m
+[31m [0m   [2m429 [0m                                                                               [31m [0m
+[31m [0m   [2m430 [0m                                                                               [31m [0m
+[31m [0m   [2m431 [0m[94mdef[0m[90m [0m[92macall_func_with_variable_args[0m(                                             [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/home/wagner/miniconda3/envs/chat_curso/lib/python3.13/site-packages/langchain_core/[0m [31m [0m
+[31m [0m [2mrunnables/[0m[1mbase.py[0m:4640 in _invoke                                                    [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m4637 [0m[2m│   │   │   │   │   [0m[33mf[0m[33m"[0m[33mRecursion limit reached when invoking [0m[33m{[0m[96mself[0m[33m}[0m[33m with input[0m [31m [0m
+[31m [0m   [2m4638 [0m[2m│   │   │   │   [0m)                                                             [31m [0m
+[31m [0m   [2m4639 [0m[2m│   │   │   │   [0m[94mraise[0m [96mRecursionError[0m(msg)                                     [31m [0m
+[31m [0m [31m❱ [0m4640 [2m│   │   │   [0moutput = [1;4moutput.invoke([0m                                           [31m [0m
+[31m [0m   [2m4641 [0m[2m│   │   │   │   [0m[1;4minput_,[0m                                                       [31m [0m
+[31m [0m   [2m4642 [0m[2m│   │   │   │   [0m[1;4mpatch_config([0m                                                 [31m [0m
+[31m [0m   [2m4643 [0m[2m│   │   │   │   │   [0m[1;4mconfig,[0m                                                   [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/home/wagner/miniconda3/envs/chat_curso/lib/python3.13/site-packages/langchain_core/[0m [31m [0m
+[31m [0m [2mrunnables/[0m[1mbase.py[0m:3047 in invoke                                                     [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m3044 [0m[2m│   │   │   │   │   [0m[94mif[0m i == [94m0[0m:                                                [31m [0m
+[31m [0m   [2m3045 [0m[2m│   │   │   │   │   │   [0minput_ = context.run(step.invoke, input_, config, **k [31m [0m
+[31m [0m   [2m3046 [0m[2m│   │   │   │   │   [0m[94melse[0m:                                                     [31m [0m
+[31m [0m [31m❱ [0m3047 [2m│   │   │   │   │   │   [0minput_ = context.run(step.invoke, input_, config)     [31m [0m
+[31m [0m   [2m3048 [0m[2m│   │   [0m[2m# finish the root run[0m                                                 [31m [0m
+[31m [0m   [2m3049 [0m[2m│   │   [0m[94mexcept[0m [96mBaseException[0m [94mas[0m e:                                            [31m [0m
+[31m [0m   [2m3050 [0m[2m│   │   │   [0mrun_manager.on_chain_error(e)                                     [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/home/wagner/miniconda3/envs/chat_curso/lib/python3.13/site-packages/langchain_core/[0m [31m [0m
+[31m [0m [2mlanguage_models/[0m[1mchat_models.py[0m:372 in invoke                                         [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m 369 [0m[2m│   │   [0mconfig = ensure_config(config)                                        [31m [0m
+[31m [0m   [2m 370 [0m[2m│   │   [0m[94mreturn[0m cast(                                                          [31m [0m
+[31m [0m   [2m 371 [0m[2m│   │   │   [0m[33m"[0m[33mChatGeneration[0m[33m"[0m,                                                 [31m [0m
+[31m [0m [31m❱ [0m 372 [2m│   │   │   [0m[1;4;96mself[0m[1;4m.generate_prompt([0m                                             [31m [0m
+[31m [0m   [2m 373 [0m[2m│   │   │   │   [0m[1;4m[[0m[1;4;96mself[0m[1;4m._convert_input([0m[1;4;96minput[0m[1;4m)],[0m                                 [31m [0m
+[31m [0m   [2m 374 [0m[2m│   │   │   │   [0m[1;4mstop=stop,[0m                                                    [31m [0m
+[31m [0m   [2m 375 [0m[2m│   │   │   │   [0m[1;4mcallbacks=config.get([0m[1;4;33m"[0m[1;4;33mcallbacks[0m[1;4;33m"[0m[1;4m),[0m                            [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/home/wagner/miniconda3/envs/chat_curso/lib/python3.13/site-packages/langchain_core/[0m [31m [0m
+[31m [0m [2mlanguage_models/[0m[1mchat_models.py[0m:957 in generate_prompt                                [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m 954 [0m[2m│   │   [0m**kwargs: Any,                                                        [31m [0m
+[31m [0m   [2m 955 [0m[2m│   [0m) -> LLMResult:                                                           [31m [0m
+[31m [0m   [2m 956 [0m[2m│   │   [0mprompt_messages = [p.to_messages() [94mfor[0m p [95min[0m prompts]                  [31m [0m
+[31m [0m [31m❱ [0m 957 [2m│   │   [0m[94mreturn[0m [1;4;96mself[0m[1;4m.generate(prompt_messages, stop=stop, callbacks=callbacks,[0m [31m [0m
+[31m [0m   [2m 958 [0m[2m│   [0m                                                                          [31m [0m
+[31m [0m   [2m 959 [0m[2m│   [0m[1;95m@override[0m                                                                 [31m [0m
+[31m [0m   [2m 960 [0m[2m│   [0m[94masync[0m [94mdef[0m[90m [0m[92magenerate_prompt[0m(                                               [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/home/wagner/miniconda3/envs/chat_curso/lib/python3.13/site-packages/langchain_core/[0m [31m [0m
+[31m [0m [2mlanguage_models/[0m[1mchat_models.py[0m:776 in generate                                       [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m 773 [0m[2m│   │   [0m[94mfor[0m i, m [95min[0m [96menumerate[0m(input_messages):                                [31m [0m
+[31m [0m   [2m 774 [0m[2m│   │   │   [0m[94mtry[0m:                                                              [31m [0m
+[31m [0m   [2m 775 [0m[2m│   │   │   │   [0mresults.append(                                               [31m [0m
+[31m [0m [31m❱ [0m 776 [2m│   │   │   │   │   [0m[96mself[0m._generate_with_cache(                                [31m [0m
+[31m [0m   [2m 777 [0m[2m│   │   │   │   │   │   [0mm,                                                    [31m [0m
+[31m [0m   [2m 778 [0m[2m│   │   │   │   │   │   [0mstop=stop,                                            [31m [0m
+[31m [0m   [2m 779 [0m[2m│   │   │   │   │   │   [0mrun_manager=run_managers[i] [94mif[0m run_managers [94melse[0m [94mNone[0m [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/home/wagner/miniconda3/envs/chat_curso/lib/python3.13/site-packages/langchain_core/[0m [31m [0m
+[31m [0m [2mlanguage_models/[0m[1mchat_models.py[0m:1022 in _generate_with_cache                          [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m1019 [0m[2m│   │   │   │   [0mchunks.append(chunk)                                          [31m [0m
+[31m [0m   [2m1020 [0m[2m│   │   │   [0mresult = generate_from_stream([96miter[0m(chunks))                       [31m [0m
+[31m [0m   [2m1021 [0m[2m│   │   [0m[94melif[0m inspect.signature([96mself[0m._generate).parameters.get([33m"[0m[33mrun_manager[0m[33m"[0m): [31m [0m
+[31m [0m [31m❱ [0m1022 [2m│   │   │   [0mresult = [1;4;96mself[0m[1;4m._generate([0m                                          [31m [0m
+[31m [0m   [2m1023 [0m[2m│   │   │   │   [0m[1;4mmessages, stop=stop, run_manager=run_manager, **kwargs[0m        [31m [0m
+[31m [0m   [2m1024 [0m[2m│   │   │   [0m[1;4m)[0m                                                                 [31m [0m
+[31m [0m   [2m1025 [0m[2m│   │   [0m[94melse[0m:                                                                 [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/home/wagner/miniconda3/envs/chat_curso/lib/python3.13/site-packages/langchain_opena[0m [31m [0m
+[31m [0m [2mi/chat_models/[0m[1mbase.py[0m:995 in _generate                                               [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m 992 [0m[2m│   │   │   [0mresponse = raw_response.parse()                                   [31m [0m
+[31m [0m   [2m 993 [0m[2m│   │   │   [0mgeneration_info = {[33m"[0m[33mheaders[0m[33m"[0m: [96mdict[0m(raw_response.headers)}         [31m [0m
+[31m [0m   [2m 994 [0m[2m│   │   [0m[94melse[0m:                                                                 [31m [0m
+[31m [0m [31m❱ [0m 995 [2m│   │   │   [0mresponse = [1;4;96mself[0m[1;4m.client.create(**payload)[0m                          [31m [0m
+[31m [0m   [2m 996 [0m[2m│   │   [0m[94mreturn[0m [96mself[0m._create_chat_result(response, generation_info)            [31m [0m
+[31m [0m   [2m 997 [0m[2m│   [0m                                                                          [31m [0m
+[31m [0m   [2m 998 [0m[2m│   [0m[94mdef[0m[90m [0m[92m_use_responses_api[0m([96mself[0m, payload: [96mdict[0m) -> [96mbool[0m:                      [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/home/wagner/miniconda3/envs/chat_curso/lib/python3.13/site-packages/openai/_utils/[0m[1m_[0m [31m [0m
+[31m [0m [1mutils.py[0m:287 in wrapper                                                              [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m284 [0m[2m│   │   │   │   │   [0m[94melse[0m:                                                      [31m [0m
+[31m [0m   [2m285 [0m[2m│   │   │   │   │   │   [0mmsg = [33mf[0m[33m"[0m[33mMissing required argument: [0m[33m{[0mquote(missing[[94m0[0m])[33m}[0m [31m [0m
+[31m [0m   [2m286 [0m[2m│   │   │   │   [0m[94mraise[0m [96mTypeError[0m(msg)                                           [31m [0m
+[31m [0m [31m❱ [0m287 [2m│   │   │   [0m[94mreturn[0m [1;4mfunc(*args, **kwargs)[0m                                       [31m [0m
+[31m [0m   [2m288 [0m[2m│   │   [0m                                                                       [31m [0m
+[31m [0m   [2m289 [0m[2m│   │   [0m[94mreturn[0m wrapper  [2m# type: ignore[0m                                         [31m [0m
+[31m [0m   [2m290 [0m                                                                               [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/home/wagner/miniconda3/envs/chat_curso/lib/python3.13/site-packages/openai/resource[0m [31m [0m
+[31m [0m [2ms/chat/completions/[0m[1mcompletions.py[0m:925 in create                                      [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m 922 [0m[2m│   │   [0mtimeout: [96mfloat[0m | httpx.Timeout | [94mNone[0m | NotGiven = NOT_GIVEN,         [31m [0m
+[31m [0m   [2m 923 [0m[2m│   [0m) -> ChatCompletion | Stream[ChatCompletionChunk]:                        [31m [0m
+[31m [0m   [2m 924 [0m[2m│   │   [0mvalidate_response_format(response_format)                             [31m [0m
+[31m [0m [31m❱ [0m 925 [2m│   │   [0m[94mreturn[0m [1;4;96mself[0m[1;4m._post([0m                                                    [31m [0m
+[31m [0m   [2m 926 [0m[2m│   │   │   [0m[1;4;33m"[0m[1;4;33m/chat/completions[0m[1;4;33m"[0m[1;4m,[0m                                              [31m [0m
+[31m [0m   [2m 927 [0m[2m│   │   │   [0m[1;4mbody=maybe_transform([0m                                             [31m [0m
+[31m [0m   [2m 928 [0m[2m│   │   │   │   [0m[1;4m{[0m                                                             [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/home/wagner/miniconda3/envs/chat_curso/lib/python3.13/site-packages/openai/[0m[1m_base_cl[0m [31m [0m
+[31m [0m [1mient.py[0m:1242 in post                                                                 [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m1239 [0m[2m│   │   [0mopts = FinalRequestOptions.construct(                                 [31m [0m
+[31m [0m   [2m1240 [0m[2m│   │   │   [0mmethod=[33m"[0m[33mpost[0m[33m"[0m, url=path, json_data=body, files=to_httpx_files(fil [31m [0m
+[31m [0m   [2m1241 [0m[2m│   │   [0m)                                                                     [31m [0m
+[31m [0m [31m❱ [0m1242 [2m│   │   [0m[94mreturn[0m cast(ResponseT, [1;4;96mself[0m[1;4m.request(cast_to, opts, stream=stream, str[0m [31m [0m
+[31m [0m   [2m1243 [0m[2m│   [0m                                                                          [31m [0m
+[31m [0m   [2m1244 [0m[2m│   [0m[94mdef[0m[90m [0m[92mpatch[0m(                                                                [31m [0m
+[31m [0m   [2m1245 [0m[2m│   │   [0m[96mself[0m,                                                                 [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2m/home/wagner/miniconda3/envs/chat_curso/lib/python3.13/site-packages/openai/[0m[1m_base_cl[0m [31m [0m
+[31m [0m [1mient.py[0m:1037 in request                                                              [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m1034 [0m[2m│   │   │   │   │   [0merr.response.read()                                       [31m [0m
+[31m [0m   [2m1035 [0m[2m│   │   │   │   [0m                                                              [31m [0m
+[31m [0m   [2m1036 [0m[2m│   │   │   │   [0mlog.debug([33m"[0m[33mRe-raising status error[0m[33m"[0m)                          [31m [0m
+[31m [0m [31m❱ [0m1037 [2m│   │   │   │   [0m[1;4;94mraise[0m[1;4m [0m[1;4;96mself[0m[1;4m._make_status_error_from_response(err.response) [0m[1;4;94mfro[0m [31m [0m
+[31m [0m   [2m1038 [0m[2m│   │   │   [0m                                                                  [31m [0m
+[31m [0m   [2m1039 [0m[2m│   │   │   [0m[94mbreak[0m                                                             [31m [0m
+[31m [0m   [2m1040 [0m                                                                              [31m [0m
+[31m────────────────────────────────────────────────────────────────────────────────────────[0m
+[1;91mNotFoundError: [0mError code: [1;36m404[0m - [1m{[0m[32m'error'[0m: [1m{[0m[32m'message'[0m: [32m'The model `gpt-4-0125-preview` [0m
+[32mdoes not exist or you do not have access to it.'[0m, [32m'type'[0m: [32m'invalid_request_error'[0m, 
+[32m'param'[0m: [3;35mNone[0m, [32m'code'[0m: [32m'model_not_found'[0m[1m}[0m[1m}[0m
