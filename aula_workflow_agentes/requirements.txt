@@ -1,0 +1,14 @@
+# Dependencias Python do material didatico.
+# Instale com:  pip install -r requirements.txt
+openai>=1.40.0          # cliente OpenAI-compatible usado com OpenRouter
+python-dotenv>=1.0.0    # carrega variaveis do .env
+pydantic>=2.7.0         # validacao de schema de tool use (Aula 1, demo 01)
+# SDK oficial do Model Context Protocol (Aula 2, demo 01). VERSAO FIXADA NA
+# LINHA 1.x DE PROPOSITO: o SDK 2.0 renomeou FastMCP para MCPServer e trocou os
+# campos dos modelos para snake_case, o que quebra a demo. E o proprio tema do
+# cap. 2 -- fixe a versao e acompanhe a politica de depreciacao.
+mcp>=1.20.0,<2.0.0
+networkx>=3.2           # grafos de memoria e knowledge graphs (Aula 1, demo 03)
+pandas>=2.2.0           # tabelas de dados nas demos
+matplotlib>=3.7.0       # graficos dos exemplos
+# sqlite3 e stdlib do Python -- nao precisa instalar (le o dados/curso_financeiro.db)
